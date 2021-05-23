@@ -1,0 +1,35 @@
+
+.navbar{
+    position:relative;
+    display: flex;
+}
+
+
+.heading{
+    margin-top: 0px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.head{
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.navbar::before{
+    content: "";
+    background-color:#8b0087;
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    
+}
+.en-to-hi{
+    display: inline;
+    font-size: 22px;
+}
+
+

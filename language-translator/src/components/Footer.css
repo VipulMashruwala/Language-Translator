@@ -1,0 +1,16 @@
+.footer{
+   display: flex;
+   justify-content: center;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #8b0087;
+}
+.footer-content {
+    padding: 5px 5px 5px 5px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
